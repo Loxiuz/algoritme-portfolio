@@ -25,11 +25,11 @@ const ordliste = [
 function start() {
   console.log("Binary Search Recursive");
   console.log(
-    "Recursive search: ",
+    "Recursive search. At index: ",
     BinarySearchRecursive(25, numbers, 0, numbers.length - 1, numberCompare)
   );
   console.log(
-    "Recursive search: ",
+    "Recursive search. At index: ",
     BinarySearchRecursive(
       "gaardejer",
       ordliste,
